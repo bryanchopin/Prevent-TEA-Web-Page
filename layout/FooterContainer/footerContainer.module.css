@@ -1,0 +1,105 @@
+
+/* FOOTER CONTAINER SECTION */
+.footerContainer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100wh;
+    height: auto;
+    padding: 2em;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .logoFooterContainer {
+    width: 15em;
+    height: 10em;
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoFooterContainer img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .footerColumn {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .infoFooterContainer {
+    width: 70%;
+    height: 10em;
+    /* border: 3px solid rgb(211, 17, 185); */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .textInfoFooter {
+    width: 100%;
+    height: 3em;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .infoFooterContainer p {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: justify;
+    padding: 1em;
+  }
+  
+  .footerRow {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    /* border: 3px solid white; */
+  }
+
+  @media screen and (max-width: 900px) {
+    .footerContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2em;
+    }
+
+    .infoFooterContainer {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .footerColumn {
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+
+    .textInfoFooter {
+      width: 100%;
+      height: 3em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
