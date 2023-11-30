@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name" : "Fistor Sport - Uniformes que Inspiran Grandeza",
-    "short_name" : "Fistor Sport",
-    "description" : "Viste tu Pasión, Juega con Fuerza: Fistor Sport, Tu Mejor aliado en una App. ",
+    "name" : "Descubriendo el Desarrollo Infantil: Guía Esencial sobre el Trastorno del Espectro Autista en Niños de 1 a 5 Años",
+    "short_name" : "Inclusión Infantil",
+    "description" : "Recursos y apoyo para el desarrollo infantil inclusivo, con enfoque en el espectro autista de 1 a 5 años. Descubre guías esenciales para el bienestar de tus pequeños.",
     "icons": [
       {
         "src": "icons/icon-192x192.png",

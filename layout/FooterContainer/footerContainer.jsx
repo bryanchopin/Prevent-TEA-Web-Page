@@ -14,7 +14,7 @@ export default function FooterContainer() {
   return (
     <footer className={styles.footerContainer}>
       <picture className={styles.logoFooterContainer}>
-        <Image src="/Logo.png" alt="Fistor Sport" width={120} height={120} />
+        <Image src="/Logo.png" alt="Main Tea" width={120} height={120} />
       </picture>
       <article className={styles.infoFooterContainer}>
         <div className={styles.footerColumn}>
@@ -24,7 +24,7 @@ export default function FooterContainer() {
               fontSize={"2em"}
               color="white"
             />
-            <a style={{color:"white",textDecoration:"none"}} href="mailto:fistor.sport08@gmail.com">fistor.sport08@gmail.com</a>
+            <a style={{color:"white",textDecoration:"none"}} href="mailto:tea@gmail.com">tea@gmail.com</a>
           </div>
           <div className={styles.textInfoFooter}>
             <AiOutlinePhone
@@ -32,7 +32,7 @@ export default function FooterContainer() {
               fontSize={"2em"}
               color="white"
             />
-            <a style={{color:"white",textDecoration:"none"}} href="tel:+526644649847">6644649847</a>
+            <a style={{color:"white",textDecoration:"none"}} href="tel:+526644649846">6644649846</a>
           </div>
           <div className={styles.textInfoFooter}>
             <AiOutlineHome
@@ -40,13 +40,13 @@ export default function FooterContainer() {
               fontSize={"2.8em"}
               color="white"
             />
-            <p>Aeropuerto 1900, C.Comercial Otay, 22425 Tijuana, B.C.</p>
+            <p>Tijuana, B.C.</p>
           </div>
         </div>
         <div className={styles.footerColumn}>
           <div className={styles.footerRow}>
             <div className={styles.textInfoFooter}>
-              <p>Fistor Sport - Vistiendo las mejores ligas.</p>
+              <p>Desarrollo Infantil Inclusivo: Guía para el Espectro Autista (1-5 años)</p>
             </div>
           </div>
           <div className={styles.footerRow}>
@@ -61,7 +61,7 @@ export default function FooterContainer() {
           </div>
           <div className={styles.footerRow}>
             <div className={styles.textInfoFooter}>
-              <p>By brychxpin </p>
+              <p>By Andres Avendaño </p>
               <AiFillLinkedin fontSize={"1.5em"} color="white" />
             </div>
           </div>
