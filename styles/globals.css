@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
 section{
   width: 100%;
   height: 100vh;
@@ -14,6 +13,7 @@ section{
   background-color: #171717;
 }
 
-section:nth-child(even){
-  background-color: #f1f1f1;
+section:nth-child(2){
+  background-color: rgb(26, 120, 160);
 }
+

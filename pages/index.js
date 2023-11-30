@@ -16,15 +16,30 @@ export default function Home() {
       <Preloader />
       <Navbar />
       <section className={styles['ripple-background']}>
-      <div className={`${styles.circle} ${styles.xxlarge} ${styles.shade1}`}></div>
-      <div className={`${styles.circle} ${styles.xlarge} ${styles.shade2}`}></div>
-      <div className={`${styles.circle} ${styles.large} ${styles.shade3}`}></div>
-      <div className={`${styles.circle} ${styles.medium} ${styles.shade4}`}></div>
-      <div className={`${styles.circle} ${styles.small} ${styles.shade5}`}></div>
+        <div className={`${styles.circle} ${styles.xxlarge} ${styles.shade1}`}></div>
+        <div className={`${styles.circle} ${styles.xlarge} ${styles.shade2}`}></div>
+        <div className={`${styles.circle} ${styles.large} ${styles.shade3}`}></div>
+        <div className={`${styles.circle} ${styles.medium} ${styles.shade4}`}></div>
+        <div className={`${styles.circle} ${styles.small} ${styles.shade5}`}></div>
       </section>
       <section></section>
-      <section></section>
-      <section></section>
+      <section className={styles.blobContainer}>
+        <div className={styles.area} >
+          <ul className={styles.circles}>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div >
+      </section>
+      <section className={styles.gradientBackground}></section>
       <Footer/>
     </>
   )
