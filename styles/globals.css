@@ -11,6 +11,7 @@ section{
   justify-content: center;
   align-items: center;
   background-color: #171717;
+  overflow: hidden;
 }
 
 section:nth-child(2){
