@@ -3,7 +3,9 @@ import Navbar from '@/components/navbar/navbar'
 import Footer from '@/layout/FooterContainer/footerContainer'
 import Preloader from '@/components/preloader/preloader'
 import styles from '@/styles/Home.module.css'
-
+import BackgroundPatron1 from '@/layout/BackgroundPatron1/backgrounPatron'
+import BackgroundGradient from '@/layout/BackgroundGradient/backgroundGradient'
+import BackgroundCircular from '@/layout/BackgroundCircular/backgroundCircular'
 export default function Home() {
   return (
     <>
@@ -15,31 +17,13 @@ export default function Home() {
       </Head>
       <Preloader />
       <Navbar />
-      <section className={styles['ripple-background']}>
-        <div className={`${styles.circle} ${styles.xxlarge} ${styles.shade1}`}></div>
-        <div className={`${styles.circle} ${styles.xlarge} ${styles.shade2}`}></div>
-        <div className={`${styles.circle} ${styles.large} ${styles.shade3}`}></div>
-        <div className={`${styles.circle} ${styles.medium} ${styles.shade4}`}></div>
-        <div className={`${styles.circle} ${styles.small} ${styles.shade5}`}></div>
-      </section>
-      <section></section>
-      <section className={styles.blobContainer}>
-        <div className={styles.area} >
-          <ul className={styles.circles}>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div >
-      </section>
-      <section className={styles.gradientBackground}></section>
+
+      <BackgroundPatron1 patron={1} />
+      <BackgroundPatron1 patron={2} />
+      <BackgroundGradient patron={1}/>
+      <BackgroundCircular patron={1}/>
+      <BackgroundCircular patron={2}/>
+      {/* <section></section> */}
       <Footer/>
     </>
   )
